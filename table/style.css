@@ -1,0 +1,25 @@
+@font-face {
+    font-family:'zh-cn' ;
+    src: url(fonts/zh-cn.ttf);
+}
+h1{
+    font-family: "zh-cn";
+    font-size: 1cm;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: -webkit-linear-gradient(
+        to right,
+        #26d0ce,
+        #FFFFFF
+    );
+    background: linear-gradient(
+        to right,
+        #26d0ce,
+        #FFFFFF
+    );
+}
